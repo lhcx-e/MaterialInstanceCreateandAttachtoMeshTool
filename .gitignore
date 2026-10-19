@@ -1,0 +1,27 @@
+# Unreal Engine generated / user specific
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Compiled output — prebuilt binaries are distributed through GitHub Releases,
+# not committed to the repository.
+*.dll
+*.pdb
+*.lib
+*.exp
+*.obj
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

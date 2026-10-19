@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement for the tool
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the workflow you are stuck in, not just the solution you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you tried
+      description: Other plugins, Python scripts, manual steps…
+    validations:
+      required: false
+
+  - type: input
+    id: engine
+    attributes:
+      label: Unreal Engine version
+      placeholder: "5.8.2"

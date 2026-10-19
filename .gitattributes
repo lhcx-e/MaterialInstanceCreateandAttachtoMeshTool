@@ -1,0 +1,14 @@
+# Normalize line endings so the plugin compiles on Windows, macOS and Linux.
+* text=auto
+
+*.cpp   text diff=cpp
+*.h     text diff=cpp
+*.cs    text
+*.uplugin text
+*.md    text
+
+*.png   binary
+*.uasset binary
+*.umap  binary
+*.dll   binary
+*.pdb   binary
